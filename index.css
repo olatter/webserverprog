@@ -1,0 +1,10 @@
+.body {
+	background-color: #000;
+	}
+.centerblock {
+	width: 450px;
+	height: 450px;
+	background-color: #000;
+	margin: auto;
+	margin-top: 50px;
+}
