@@ -1,12 +1,12 @@
 <?php
 session_start();
-if(!isset($_SESSION['id'])) { header('Location: index.html'); }
+include 'head.php';
+include 'config.php';
+if(!isset($_SESSION['id'])) { header('Location: /webserverprog/login/'); }
 
-
-
-echo "Välkommen du är nu inloggad!"
+echo "Välkommen";
 
 ?>
 <br>
- <a href="logout.php">Logga ut</a>
+ <a href="logout.php">Logga ut</a> 
 
